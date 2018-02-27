@@ -68,7 +68,7 @@ class Game
       turn
     end
     if won?
-      puts "Congratulations #{winner}!".blue
+      puts "Congratulations #{winner}!".green 
       puts "You've won the game!"
     else draw?
       puts "Cat's Game!"
