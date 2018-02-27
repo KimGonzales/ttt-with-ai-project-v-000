@@ -54,7 +54,7 @@ def play_again?
   input = gets.strip.to_s.capitalize
   if input == 'Y' || input == 'YES'
     start_game
-  elsif input == 'N' || input == 'NO'
+  elsif input == 'N' || input == 'NO'|| input == 'no'
     puts "Thanks for playing. Come back soon!".cyan
     exit
   else

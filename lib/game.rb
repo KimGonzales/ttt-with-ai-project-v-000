@@ -69,7 +69,7 @@ class Game
     end
     if won?
       puts "Congratulations #{winner}!"
-      puts "You've won the game!".blue
+      puts "You've won the game!"
     else draw?
       puts "Cat's Game!"
     end
